@@ -31,5 +31,9 @@ class TestsubtractionFunction < Minitest::Test
 		assert_equal(5, sub(10,5))
 	end
 
+	def test_50_minus_10
+		assert_equal(40, sub(50,10))
+	end
+
 
 end
