@@ -35,6 +35,12 @@ end
 
 class TestDivisionFunction < Minitest::Test
 	def test_50_div_10
-		assert_equal(5, div(50,10))
+		assert_equal(5,div(50,10))
 	end
-end
+
+	def test_0_div_100
+		assert_equal("infinity", div(100,0))
+	end
+
+	end
+
